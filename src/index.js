@@ -3,22 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Name from './components/Name';
 
 
-function Java() {
-  return (
-    <h2>Java Developer</h2>
-  );
-}
 
-function Name() {
-  return (
-    <>
-      <h1>HARI HARAN</h1>
-      <Java/>
-    </>
-  );
-}
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
