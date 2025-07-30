@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Fav from './components/FavColor';
 import Car from './components/Car';
 import Scooter from './components/Scooter';
+import List from './components/TestList';
 
 
 
@@ -18,6 +19,7 @@ root.render(
    <Fav/>
    <Car/>
    <Scooter/>
+   <List/>
   </React.StrictMode>
 );
 
